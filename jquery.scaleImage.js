@@ -1,3 +1,11 @@
+/**
+* jQuery Scale Image
+* Copyright (c) 2011 Kevin Doyle
+* Dual licensed under the MIT and GPL licenses:
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.gnu.org/licenses/gpl.html
+**/
+
 (function($){
 	var config = { };
 	var el, imgheight, imgwidth, imgratio, centerx, centery, windowheight, windowwidth, windowratio, throttle;
